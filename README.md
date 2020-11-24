@@ -1,1 +1,3 @@
-# code_snippets
+# Code Snippets
+
+some code snippets in scala and python
