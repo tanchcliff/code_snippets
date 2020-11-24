@@ -1,8 +1,8 @@
 
 # correlation between two columns in pandas dataframe
 
-col1 = df['rrcConnectedUsers']
-col2 = df['cellDLThroughput']
+col1 = df['col_name_1']
+col2 = df['col_name_2']
 correlation = col1.corr(col2)
 
 print(correlation)
@@ -31,7 +31,9 @@ df4 = df.query(" hour in ['01', '02']") # list comparison, exist in
 df5 = df.query(" hour not in ['01', '02']") # list comparison, do not exist in
 
 # count of lines
-df2.count() # df2.size() returns row count * column count 
+df.count()
+df.size() returns row count * column count
+df.shape[0]
 
 # sort
 df.sort_values(['month', 'dayType'])
